@@ -37,7 +37,9 @@ function App() {
     window.history.pushState(
       '',
       '',
-      `/?date=${formatDate(searchDate)}&start=${start}&end=${end}`
+      `/vapaat-tennisvuorot/?date=${formatDate(
+        searchDate
+      )}&start=${start}&end=${end}`
     );
   }, [searchDate, start, end]);
 
