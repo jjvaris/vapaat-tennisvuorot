@@ -84,7 +84,8 @@ function App() {
 function renderHours(place, start, end) {
   const hours = place.availableHours
     .filter(
-      hour => parseInt(hour) > parseInt(start) && parseInt(hour) < parseInt(end)
+      hour =>
+        parseInt(hour) >= parseInt(start) && parseInt(hour) <= parseInt(end)
     )
     .map(hour => (
       <a href={place.link} key={hour} target="_blank" rel="noopener noreferrer">
