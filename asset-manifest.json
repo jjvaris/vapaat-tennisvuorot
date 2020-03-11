@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.3847318e.chunk.css",
-    "main.js": "/static/js/main.6cfb5a6e.chunk.js",
-    "main.js.map": "/static/js/main.6cfb5a6e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.16fea0a5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.16fea0a5.js.map",
-    "static/css/2.b90ce945.chunk.css": "/static/css/2.b90ce945.chunk.css",
-    "static/js/2.d5edf79e.chunk.js": "/static/js/2.d5edf79e.chunk.js",
-    "static/js/2.d5edf79e.chunk.js.map": "/static/js/2.d5edf79e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9228742676ff027b3b69eeac85e6a6ba.js": "/precache-manifest.9228742676ff027b3b69eeac85e6a6ba.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.b90ce945.chunk.css.map": "/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.3847318e.chunk.css.map": "/static/css/main.3847318e.chunk.css.map",
-    "static/js/2.d5edf79e.chunk.js.LICENSE.txt": "/static/js/2.d5edf79e.chunk.js.LICENSE.txt"
+    "main.css": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css",
+    "main.js": "/vapaat-tennisvuorot/static/js/main.bfa08a4b.chunk.js",
+    "main.js.map": "/vapaat-tennisvuorot/static/js/main.bfa08a4b.chunk.js.map",
+    "runtime-main.js": "/vapaat-tennisvuorot/static/js/runtime-main.ea9f9a3d.js",
+    "runtime-main.js.map": "/vapaat-tennisvuorot/static/js/runtime-main.ea9f9a3d.js.map",
+    "static/css/2.b90ce945.chunk.css": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css",
+    "static/js/2.d5edf79e.chunk.js": "/vapaat-tennisvuorot/static/js/2.d5edf79e.chunk.js",
+    "static/js/2.d5edf79e.chunk.js.map": "/vapaat-tennisvuorot/static/js/2.d5edf79e.chunk.js.map",
+    "index.html": "/vapaat-tennisvuorot/index.html",
+    "precache-manifest.0e73e400865fe86a3ff0f6bfd6faef8c.js": "/vapaat-tennisvuorot/precache-manifest.0e73e400865fe86a3ff0f6bfd6faef8c.js",
+    "service-worker.js": "/vapaat-tennisvuorot/service-worker.js",
+    "static/css/2.b90ce945.chunk.css.map": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css.map",
+    "static/css/main.3847318e.chunk.css.map": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css.map",
+    "static/js/2.d5edf79e.chunk.js.LICENSE.txt": "/vapaat-tennisvuorot/static/js/2.d5edf79e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.16fea0a5.js",
+    "static/js/runtime-main.ea9f9a3d.js",
     "static/css/2.b90ce945.chunk.css",
     "static/js/2.d5edf79e.chunk.js",
     "static/css/main.3847318e.chunk.css",
-    "static/js/main.6cfb5a6e.chunk.js"
+    "static/js/main.bfa08a4b.chunk.js"
   ]
 }
