@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css",
-    "main.js": "/vapaat-tennisvuorot/static/js/main.a2014a20.chunk.js",
-    "main.js.map": "/vapaat-tennisvuorot/static/js/main.a2014a20.chunk.js.map",
+    "main.js": "/vapaat-tennisvuorot/static/js/main.3b3214f4.chunk.js",
+    "main.js.map": "/vapaat-tennisvuorot/static/js/main.3b3214f4.chunk.js.map",
     "runtime-main.js": "/vapaat-tennisvuorot/static/js/runtime-main.ea9f9a3d.js",
     "runtime-main.js.map": "/vapaat-tennisvuorot/static/js/runtime-main.ea9f9a3d.js.map",
     "static/css/2.b90ce945.chunk.css": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css",
-    "static/js/2.1e4410b1.chunk.js": "/vapaat-tennisvuorot/static/js/2.1e4410b1.chunk.js",
-    "static/js/2.1e4410b1.chunk.js.map": "/vapaat-tennisvuorot/static/js/2.1e4410b1.chunk.js.map",
+    "static/js/2.911ee303.chunk.js": "/vapaat-tennisvuorot/static/js/2.911ee303.chunk.js",
+    "static/js/2.911ee303.chunk.js.map": "/vapaat-tennisvuorot/static/js/2.911ee303.chunk.js.map",
     "index.html": "/vapaat-tennisvuorot/index.html",
-    "precache-manifest.bac94fb5041464e778b3ed4a4acb82ef.js": "/vapaat-tennisvuorot/precache-manifest.bac94fb5041464e778b3ed4a4acb82ef.js",
+    "precache-manifest.aa71a7f23e1578e85d10c48834c61ebe.js": "/vapaat-tennisvuorot/precache-manifest.aa71a7f23e1578e85d10c48834c61ebe.js",
     "service-worker.js": "/vapaat-tennisvuorot/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css.map",
     "static/css/main.3847318e.chunk.css.map": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css.map",
-    "static/js/2.1e4410b1.chunk.js.LICENSE.txt": "/vapaat-tennisvuorot/static/js/2.1e4410b1.chunk.js.LICENSE.txt"
+    "static/js/2.911ee303.chunk.js.LICENSE.txt": "/vapaat-tennisvuorot/static/js/2.911ee303.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ea9f9a3d.js",
     "static/css/2.b90ce945.chunk.css",
-    "static/js/2.1e4410b1.chunk.js",
+    "static/js/2.911ee303.chunk.js",
     "static/css/main.3847318e.chunk.css",
-    "static/js/main.a2014a20.chunk.js"
+    "static/js/main.3b3214f4.chunk.js"
   ]
 }
