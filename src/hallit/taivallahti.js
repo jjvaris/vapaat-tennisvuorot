@@ -1,6 +1,6 @@
 import { get } from '../utils/api';
 import $ from 'jquery';
-import { format, subDays } from 'date-fns';
+import { format } from 'date-fns';
 
 const getAvailableHours = async date => {
   const today = format(date, 'yyyy-MM-dd');

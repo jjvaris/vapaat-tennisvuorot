@@ -11,7 +11,6 @@ const getAvailableHours = async url => {
       (_, e) => $(e).find('td[class="state_white res_success"]').length > 0
     )
     .map((_, e) => {
-      console.log(e);
       return $(e)
         .text()
         .split(' - ')[0];
