@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css",
-    "main.js": "/vapaat-tennisvuorot/static/js/main.57ee396f.chunk.js",
-    "main.js.map": "/vapaat-tennisvuorot/static/js/main.57ee396f.chunk.js.map",
+    "main.js": "/vapaat-tennisvuorot/static/js/main.a2014a20.chunk.js",
+    "main.js.map": "/vapaat-tennisvuorot/static/js/main.a2014a20.chunk.js.map",
     "runtime-main.js": "/vapaat-tennisvuorot/static/js/runtime-main.ea9f9a3d.js",
     "runtime-main.js.map": "/vapaat-tennisvuorot/static/js/runtime-main.ea9f9a3d.js.map",
     "static/css/2.b90ce945.chunk.css": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css",
     "static/js/2.1e4410b1.chunk.js": "/vapaat-tennisvuorot/static/js/2.1e4410b1.chunk.js",
     "static/js/2.1e4410b1.chunk.js.map": "/vapaat-tennisvuorot/static/js/2.1e4410b1.chunk.js.map",
     "index.html": "/vapaat-tennisvuorot/index.html",
-    "precache-manifest.6d49d6458586bd9d7a963470bf696e50.js": "/vapaat-tennisvuorot/precache-manifest.6d49d6458586bd9d7a963470bf696e50.js",
+    "precache-manifest.bac94fb5041464e778b3ed4a4acb82ef.js": "/vapaat-tennisvuorot/precache-manifest.bac94fb5041464e778b3ed4a4acb82ef.js",
     "service-worker.js": "/vapaat-tennisvuorot/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css.map",
     "static/css/main.3847318e.chunk.css.map": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.b90ce945.chunk.css",
     "static/js/2.1e4410b1.chunk.js",
     "static/css/main.3847318e.chunk.css",
-    "static/js/main.57ee396f.chunk.js"
+    "static/js/main.a2014a20.chunk.js"
   ]
 }
