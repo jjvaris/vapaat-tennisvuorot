@@ -1,4 +1,6 @@
 import axios from 'axios';
 
+const client = axios.create({ timeout: 5000 });
+
 export const get = url =>
-  axios.get(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
+  client.get(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);

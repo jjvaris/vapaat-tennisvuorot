@@ -69,7 +69,12 @@ function App() {
                 {place.name}
               </Heading>
             </a>
-            {renderHours(place, start, end)}
+
+            {place.error ? (
+              <h2>Virhe vuorojen latauksessa.</h2>
+            ) : (
+              renderHours(place, start, end)
+            )}
           </div>
         ))
       ) : (
