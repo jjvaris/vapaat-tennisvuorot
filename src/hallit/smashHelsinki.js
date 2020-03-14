@@ -1,4 +1,3 @@
-//https://smashcenter.slsystems.fi/booking/booking-calendar?BookingCalForm%5Bp_laji%5D=1&BookingCalForm%5Bp_pvm%5D=2020-03-12&BookingCalForm%5Bp_pvm_interval%5D=&BookingCalForm%5Bp_calmode%5D=2&BookingCalForm%5Bp_pvm_custom%5D=Torstai+12.03.2020
 import { get } from '../utils/api';
 import $ from 'jquery';
 import { format } from 'date-fns';
