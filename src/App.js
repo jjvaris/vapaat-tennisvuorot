@@ -15,9 +15,17 @@ const formatDate = date => {
   return format(date, 'yyyy-MM-dd');
 };
 
+const resolveSearchDate = date => {
+  const today = new Date();
+  if (!date) {
+    return today;
+  }
+  return date < today ? today : date;
+};
+
 function App() {
   const [searchDate, setSearchDate] = React.useState(
-    dateUrlParam || new Date()
+    resolveSearchDate(dateUrlParam)
   );
   const [[start, end], setTimeRange] = React.useState([
     startUrlParam || '06:00',
