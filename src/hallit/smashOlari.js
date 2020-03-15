@@ -7,7 +7,7 @@ const getAvailableHours = async date => {
   const url = `https://smashcenter.slsystems.fi/booking/booking-calendar?BookingCalForm%5Bp_laji%5D=7&BookingCalForm%5Bp_pvm%5D=${today}&BookingCalForm%5Bp_pvm_interval%5D=&BookingCalForm%5Bp_calmode%5D=2&BookingCalForm%5Bp_pvm_custom%5D=Lauantai+14.03.2020`;
   const response = await get(url);
   const html = response.data.contents;
-  const availableHours = $(html)
+  const availableHours = $($.parseHTML(html))
     .find('td[class="s-avail"]')
     .map((_, e) => {
       return $(e)

@@ -7,7 +7,7 @@ const getAvailableHours = async date => {
   const url = `https://vj.slsystems.fi/tennispuisto/ftpages/ft-varaus-table-01.php?laji=1&pvm=${today}&goto=0`;
   const response = await get(url);
   const html = response.data.contents;
-  const availableHours = $(html)
+  const availableHours = $($.parseHTML(html))
     .find('a')
     .map((_, e) =>
       $(e)

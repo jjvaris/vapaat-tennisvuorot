@@ -17,7 +17,7 @@ const getAllAvailableHours = async date =>
     esport.esport2(date).catch(error('Esport Center Tapiola 10-14')),
     tennispuisto(date).catch(error('Tapiolan Tennispuisto')),
     smashHelsinki(date).catch(error('Smash Center Helsink')),
-    smashOlari(date).catch(error('Smash Center Olari'))
+    smashOlari(date) //).catch(error('Smash Center Olari'))
   ]);
 
 export default getAllAvailableHours;

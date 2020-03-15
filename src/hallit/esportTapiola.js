@@ -5,7 +5,7 @@ import { format } from 'date-fns';
 const getAvailableHours = async url => {
   const response = await get(url);
   const html = response.data.contents;
-  const availableHours = $(html)
+  const availableHours = $($.parseHTML(html))
     .find('tr[class=state_R],tr[class=state_F]')
     .filter(
       (_, e) => $(e).find('td[class="state_white res_success"]').length > 0
