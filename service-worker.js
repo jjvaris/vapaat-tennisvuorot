@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vapaat-tennisvuorot/precache-manifest.032188143ca55373123c91db91d7f0b7.js"
+  "/vapaat-tennisvuorot/precache-manifest.f4c7152cd425fd6ffdba8630fc42d092.js"
 );
 
 self.addEventListener('message', (event) => {
