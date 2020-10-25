@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "654f2a65208e1df9a3ab27a696185380",
+    "revision": "e8b0c5ca77bb3c821dd5b0be7e6fd6a8",
     "url": "/vapaat-tennisvuorot/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vapaat-tennisvuorot/static/css/2.b90ce945.chunk.css"
   },
   {
-    "revision": "49b96a025e629b398a6c",
+    "revision": "ba255d097483df2f5c79",
     "url": "/vapaat-tennisvuorot/static/css/main.3847318e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vapaat-tennisvuorot/static/js/2.3763fa74.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49b96a025e629b398a6c",
-    "url": "/vapaat-tennisvuorot/static/js/main.401d3bdc.chunk.js"
+    "revision": "ba255d097483df2f5c79",
+    "url": "/vapaat-tennisvuorot/static/js/main.4d4f35b3.chunk.js"
   },
   {
     "revision": "a1fd253f641db55c35cf",
