@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0905830b53f672543dde965c8ed9a368",
+    "revision": "ebe17b75f70bf714f45964c888c452a8",
     "url": "/vapaat-tennisvuorot/index.html"
   },
   {
