@@ -45,7 +45,7 @@ const getHours = (data, searchDate) => {
   }
 
   const byHallId = allByDay
-    .filter((i) => i.courtType === 'INSIDE' && !i.thirtyMinutes)
+    .filter((i) => i.courtType === ('INSIDE' || 'INFLATED') && !i.thirtyMinutes)
     .reduce((acc, cur) => {
       if (!acc[cur.hallId]) {
         acc[cur.hallId] = {
