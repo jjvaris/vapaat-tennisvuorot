@@ -3,7 +3,7 @@ import React from 'react';
 import { format, parseISO } from 'date-fns';
 import DatePicker from 'react-datepicker';
 import TimeRangePicker from './components/TimeRangePicker';
-import { Box, Heading } from '@chakra-ui/core';
+import { Alert, AlertIcon, Box, Heading, Link } from '@chakra-ui/core';
 
 import { client } from './utils/api';
 
@@ -96,7 +96,7 @@ function App() {
 
   React.useEffect(() => {
     client
-      .get('https://vapaat-pelivuorot.fly.dev/api/available-hours')
+      .get('https://pelivuorot.herokuapp.com/api/available-hours')
       .then((response) => setData(response.data));
   }, []);
 
@@ -121,6 +121,13 @@ function App() {
 
   return (
     <div style={{ maxWidth: '100%', padding: '10px' }}>
+      <Alert mb="2rem">
+        <AlertIcon />
+        Vapaat tennisvuorot löytyy nyt osoitteesta{' '}
+        <Link ml="10px" href="https://pelivuorot.com" isExternal>
+          www.pelivuorot.com
+        </Link>
+      </Alert>
       <Heading mb="2rem">Vapaat tennisvuorot</Heading>
       <DatePicker
         selected={searchDate}
